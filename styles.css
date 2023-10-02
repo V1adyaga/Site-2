@@ -1,8 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
     background-color: #f1f1f1;
     color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+
+    /* font: normal 16px 'Roboto', sans-serif; */
+
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif */
 }
 
-h1 {
-    color: red;
+.Марин {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 15px 12px 14px 2PX rgba(0, 0, 0, 0.25);
+}
+
+.info p {
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.Fortnite li:nth-child(1){
+    text-decoration: line-through;
 }
