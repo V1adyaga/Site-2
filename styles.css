@@ -24,7 +24,6 @@ body {
     margin: 0;
     font-style: italic;
     font-weight: bold;
-    text-decoration: line-through;
 }
 
 .Fortnite li:nth-child(1){
