@@ -24,8 +24,43 @@ body {
     margin: 0;
     font-style: italic;
     font-weight: bold;
+    /* text-transform: capitalize; */
+    /* letter-spacing: 15px; */
+    /* word-spacing: 42px; */
 }
 
-.Fortnite li:nth-child(1){
+/* Box model */
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+/* 
+.social {
+    background: green; */
+    /* padding: 15px; */
+    /* padding: 15px 40ps; */
+    /* padding: 15px 20px 25px 30px; */
+    /* padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    margin: 5px;
+
+    border: 5px solid red;
+    border-bottom-style: dashed;
+    border-top-width: 15px;
+    border-right-color: blue; */
+/* } */
+
+.Fortnite li:nth-child(1) {
     text-decoration: line-through;
 }
+
+/* .box-model > div {
+    float: left;
+    background: black;
+    height: 200px;
+    border: 4px solid red;
+    width: 25%;
+    box-sizing: border-box;
+} */
