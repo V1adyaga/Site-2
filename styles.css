@@ -13,11 +13,41 @@ body {
     /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif */
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hov 
+ 
+
+
+
+
+er {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: grey;
+}
+
 .Марин {
     width: 200px;
     border-radius: 28px;
     box-shadow: 15px 12px 14px 2PX rgba(0, 0, 0, 0.25);
 }
+
+td:hover, th:hover {
+    background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 50%,  rgba(255,255,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 .info p {
     color: #86898f;
@@ -38,7 +68,7 @@ body {
 .social {
     background: green; */
     /* padding: 15px; */
-    /* padding: 15px 40ps; */
+    /* padding: 15px 40px; */
     /* padding: 15px 20px 25px 30px; */
     /* padding-top: 15px;
     padding-right: 20px;
